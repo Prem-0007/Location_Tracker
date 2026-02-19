@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #e8e8e8;
+  text-align: center;
+}
+
+.heading {
+  margin-top: 30px;
+  font-weight: 800;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+  position: relative;
+}
+
+.map-card {
+  padding: 20px;
+  border-radius: 20px;
+  background: #e8e8e8;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.dark-toggle {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+body.dark {
+  background: #1a1c2c;
+  color: white;
+}
+
+body.dark .map-card {
+  background: #1a1c2c;
+  box-shadow: 6px 6px 12px #11121d,
+    -6px -6px 12px #24263d;
+}
+
+body.dark .heading {
+  color: white;
+}
+
+body.dark .dark-toggle {
+  background: #1a1c2c;
+  color: white;
+  box-shadow: 4px 4px 10px #11121d,
+    -4px -4px 10px #24263d;
+}

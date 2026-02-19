@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Live Location Tracker</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+<script src="/socket.io/socket.io.js"></script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<button class="dark-toggle" onclick="toggleDarkMode()" id="themeBtn">🌙</button>
+
+<h1 class="heading">Live Location Tracker</h1>
+
+<div class="container">
+  <div class="map-card">
+    <div id="map"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
